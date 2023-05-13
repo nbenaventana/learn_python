@@ -15,6 +15,8 @@ def multiplicar_por_tres(numero):
 # Solicitar al usuario que ingrese una opción
 opcion = int(input("Ingrese una opción (1, 2 o 3): "))
 
+numero = 5
+
 # Crear un diccionario con las opciones
 switch = {
     1: opcion_1,
@@ -24,6 +26,6 @@ switch = {
 }
 # Ejecutar la función correspondiente a la opción seleccionada
 if opcion in switch:
-    switch[opcion](5)
+    switch[opcion](numero)
 else:
     print("Opción inválida")
