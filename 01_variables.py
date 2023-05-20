@@ -14,19 +14,20 @@ print(my_string_variable, my_int_variable, my_bool_variable)
 
 # Variables de distintos tipos
 
-first_name = 'Nelson'
-last_name = 'Benaventana'
-country = 'Argentina'
-city = 'Concordia'
-age = 44
-is_married = True
-skills = ['HTML', 'CSS', 'Java Script', 'React', 'Python']
+first_name = 'Nelson'    #cadena de caracteres
+last_name = 'Benaventana' #cadena de caracteres
+country = 'Argentina' #cadena de caracteres
+city = 'Concordia' #cadena de caracteres
+age = 44 #entero
+is_married = True  #booleano> verdadero o falso
+skills = ['HTML', 'CSS', 'Java Script', 'React', 'Python'] #lista de cadenas
 person_info = {
     'firstname':'Nelson', 
     'lastname':'Benaventana', 
     'country':'Argentina',
     'city':'Concordia'
-    }
+    }   #Esto es un diccionario de datos, clave : valor
+
 print("Valor de tipo Dictionary: " + person_info['firstname'])
 
 print("Tipo Set variable Skills subindice 2: " + skills[2])
