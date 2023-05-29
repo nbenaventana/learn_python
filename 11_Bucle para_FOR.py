@@ -3,6 +3,15 @@ numeros = [1, 2, 3, 4, 5]
 for numero in numeros:
     print(numero)
 
+# Iterar sobre una lista de palabras
+# ['Esta', 'cadena', 'tiene', '5', 'palabras']
+
+cadena = "Varias palabras en esta cadena"
+primer_palabra = cadena.split()[0]
+for letra in primer_palabra:
+    print(letra)
+
+
 # Iterar sobre una cadena de texto
 texto = "Hola, mundo!"
 for caracter in texto:

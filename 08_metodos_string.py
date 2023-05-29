@@ -24,7 +24,16 @@ print("Cantidad de letras [a] : ", semana.count('a',9,15))
 cadena = input("Ingrese una cadena: ")
 cadena_invertida = cadena[::-1].lower().replace(" ","")
 print("Cadena regular: ", cadena)
+
 print("Cadena invertida: ", cadena_invertida[::-1])
 
 if cadena.lower() == cadena_invertida:
     print(cadena, " es palindromo")
+
+
+#Metodo split
+
+cadena = "Esta cadena tiene 5 palabras"
+palabras = cadena.split()
+print("Palabras de la cadena: ", palabras)
+# Imprime:  ['Esta', 'cadena', 'tiene', '5', 'palabras']
