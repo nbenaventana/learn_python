@@ -9,4 +9,3 @@ persona = {"nombre":"Juan","apellido":"Martinez"}
 gravedad = 9.18
 
 pi = 3.1415
-
