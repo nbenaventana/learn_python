@@ -130,8 +130,19 @@ def sum_all_nums(*numeros):
     for num in numeros:
         total += num     # esto es lo mismo que total = total + num 
     return total
+
+    
 print(sum_all_nums(2, 3, 5)) # 10
 print(sum_all_nums(5,8,2,4,14)) # 33
+
+def add_all_nums(*args):
+    total = 0
+    for num in args:
+        if isinstance(num, (int, float)):
+            total += num
+        else:
+            return "Error: todos los argumentos deben ser números."
+    return total
 
 ##Función como parámetro de otra función
 def square_number (n):
