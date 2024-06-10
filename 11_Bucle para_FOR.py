@@ -1,7 +1,7 @@
 # Iterar sobre una lista de números
 numeros = [1, 2, 3, 4, 5]
-for numero in numeros:
-    print(numero)
+for n in numeros:
+    print(n)
 
 # Iterar sobre una lista de palabras
 # ['Esta', 'cadena', 'tiene', '5', 'palabras']

@@ -1,5 +1,2 @@
-print("Hola Pyton")
-
-
-
+print("Hola Python desde VD code")
 

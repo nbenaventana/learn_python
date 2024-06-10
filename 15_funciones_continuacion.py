@@ -34,12 +34,14 @@ def sumar_dos_numeros ():
     total = num_1 + num_2
     return total
 
-print(sumar_dos_numeros())
+
+valor_retornado = sumar_dos_numeros()
+
+print(valor_retornado)
 
 ### Devolver un booleano
 def es_par (n):
     if n % 2 == 0:
-        print('par')
         return True    # return detiene la ejecución de la función, similar a break 
     return False
 
@@ -48,11 +50,12 @@ print(es_par(7)) # False
 
 ### Devolver una lista
 def buscar_numeros_pares(n):
-    evens = []
+    pares = []
     for i in range(n + 1):
         if i % 2 == 0:
-            evens.append(i)
-    return evens
+            pares.append(i)
+    return pares
+
 print(buscar_numeros_pares(10))
 
 ## Funciones con parámetros
@@ -139,7 +142,7 @@ def add_all_nums(*args):
     total = 0
     for num in args:
         if isinstance(num, (int, float)):
-            total += num
+            total += num #esto es lo mismo que total = total + num
         else:
             return "Error: todos los argumentos deben ser números."
     return total

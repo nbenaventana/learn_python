@@ -1,6 +1,5 @@
 # Variables
-
-my_string_variable = "My String Variable"
+my_string_variable = "Hola py...."
 print(my_string_variable)
 
 my_int_variable = 5
@@ -20,7 +19,9 @@ country = 'Argentina' #cadena de caracteres
 city = 'Concordia' #cadena de caracteres
 age = 44 #entero
 is_married = True  #booleano> verdadero o falso
-skills = ['HTML', 'CSS', 'Java Script', 'React', 'Python'] #lista de cadenas
+
+#lista de cadenas
+skills = ['HTML', 'CSS', 'Java Script', 'React', 'Python'] 
 person_info = {
     'firstname':'Nelson', 
     'lastname':'Benaventana', 
@@ -29,12 +30,10 @@ person_info = {
     }   #Esto es un diccionario de datos, clave : valor
 
 print("Valor de tipo Dictionary: " + person_info['firstname'])
-
-print("Tipo Set variable Skills subindice 2: " + skills[2])
+print("Tipo Set variable Skills subindice 2: " + skills[2]) 
 
 
 # Mostramos los valores de las variables
-
 print('Primer nombre:', first_name)
 print('Cantidad de caracteres del primer Nombre:', len(first_name))
 print('Apellido: ', last_name)

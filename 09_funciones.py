@@ -6,7 +6,11 @@
 def multiplicar_por_dos(numero: float):
     return numero * 2
 
-print("El resuktado de la funcion es: ",multiplicar_por_dos(15))
+numero = float(input("Ingrese numero: "))
+resu = multiplicar_por_dos(numero)
+print("El resultado de la funcion es: ",resu)
+
+
 
 #Número triangular
 def es_numero_triangular(numero):

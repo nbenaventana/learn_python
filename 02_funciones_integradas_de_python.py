@@ -1,6 +1,7 @@
 #Funciones del sistema
 
-print("La cantidad de caracteres de my_string_variable es:", len("my_string_variable"))
+print("La cantidad de caracteres de my_string_variable es:", 
+      len("my_string_variable"))
 
 
 #Inputs
@@ -14,7 +15,8 @@ print(age)
 
 #Funcion range()
 
-#La función range() se utiliza como lista de números. El rango (inicio, fin, paso) toma tres parámetros: inicio, fin e incremento. 
+#La función range() se utiliza como lista de números. 
+#El rango (inicio, fin, paso) toma tres parámetros: inicio, fin e incremento. 
 # De forma predeterminada, comienza desde 0 y el incremento es 1. La secuencia de rango necesita al menos 1 argumento (fin). 
 # Creando secuencias usando rango
 
@@ -27,3 +29,6 @@ lst = list(range(0,11,2))
 print(lst) # [0, 2, 4, 6, 8, 10]
 st = set(range(0,11,2))
 print(st) #  {0, 2, 4, 6, 8, 10}
+dic = dict(uno="numero 1",dos="numero 2")
+print(dic)
+print(dic["uno"])

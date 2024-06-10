@@ -11,9 +11,10 @@ print("Variable semana sin el metodo: ",semana)
     # retorna la cantidad de ocurrencias de una sub-cadena dentro
     # de una cadena
 
-print("Cantidad de letras [a] en variable semana: ", semana.count('a'))
-print("Cantidad de veces [ta] en variable semana: ", semana.count('ta'))
-semana
+print("Cantidad de letras [a] en variable semana: ", 
+      semana.count('a'))
+print("Cantidad de veces [ta] en variable semana: ", 
+      semana.count('ta'))
 
 #Busca la subcadena indicada desde la posición 9
 print("Cantidad de letras [a] : ", semana.count('a',9))
