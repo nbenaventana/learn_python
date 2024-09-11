@@ -21,6 +21,7 @@ def registrar_venta():
     except ValueError as e:
         print(f"Error: {e}")
 
+
 while True:
     registrar_venta()
     opcion = input("¿Desea registrar otra venta? (s/n): ").lower()

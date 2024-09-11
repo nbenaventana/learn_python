@@ -2,7 +2,7 @@ import pymongo
 from datetime import datetime
 
 # Conexión a MongoDB
-client = pymongo.MongoClient("mongodb://mongo:FBUgdGWPvFqzuQABMwShZTcTwZNrUPQC@autorack.proxy.rlwy.net:31753")
+client = pymongo.MongoClient("")
 db = client["test"]  # Base de datos "blog"
 posts_collection = db["prueba"]  # Colección "posts"
 
