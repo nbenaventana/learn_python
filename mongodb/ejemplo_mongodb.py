@@ -35,6 +35,17 @@ def buscar_posts_por_etiqueta(etiqueta):
         print(post)
         print("Titulo: ", post["titulo"])
 
+# Función para buscar posts por coincidencia parcial en las etiquetas
+def buscar_posts_por_etiqueta_parcial(busqueda_parcial):
+    # Crear expresión regular para búsqueda parcial insensible a mayúsculas/minúsculas
+    regex = re.compile(busqueda_parcial, re.IGNORECASE)
+
+    # Realizar la consulta utilizando $regex
+    posts = posts_collection.find({"etiquetas": {"$regex": regex}})
+
+    for post in posts:
+        print(post)
+
 # Ejemplo de uso
 crear_post("Mi primer post", "Contenido del primer post...", "Juan", "juan@ejemplo.com", ["python", "tecnología"])
 obtener_posts()
